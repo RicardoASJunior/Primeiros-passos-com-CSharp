@@ -74,7 +74,22 @@ class Programa{
 
         string frase = "Encapsulando uma frase";
         Console.WriteLine(frase);
-        
+
+        string linguagensDeProgramacao = @"Minhas Linguagens favoritas:
+- Python
+- JavaScript
+- HTML
+- CSS
+- C#"; // Não pode identar, pq ele considera o espaço da identação;
+        Console.WriteLine(linguagensDeProgramacao);
+
+
+    Console.WriteLine("Pressione Enter para avançar...");
+    Console.ReadLine();
+
+    //-----------------------------------------------------------------
+
+    
 
     }
 }
