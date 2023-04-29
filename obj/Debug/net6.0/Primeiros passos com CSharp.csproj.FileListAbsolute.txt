@@ -1,0 +1,15 @@
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.csproj.AssemblyReference.cache
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.GeneratedMSBuildEditorConfig.editorconfig
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.AssemblyInfoInputs.cache
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.AssemblyInfo.cs
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.csproj.CoreCompileInputs.cache
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/bin/Debug/net6.0/Primeiros passos com CSharp
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/bin/Debug/net6.0/Primeiros passos com CSharp.deps.json
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/bin/Debug/net6.0/Primeiros passos com CSharp.runtimeconfig.json
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/bin/Debug/net6.0/Primeiros passos com CSharp.dll
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/bin/Debug/net6.0/ref/Primeiros passos com CSharp.dll
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/bin/Debug/net6.0/Primeiros passos com CSharp.pdb
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.dll
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/ref/Primeiros passos com CSharp.dll
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.pdb
+/home/belinha/Documentos/Ricardo/C#/Primeiros passos com CSharp/obj/Debug/net6.0/Primeiros passos com CSharp.genruntimeconfig.cache
