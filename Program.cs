@@ -126,5 +126,27 @@ class Programa{
     Console.WriteLine("Pressione Enter para avançar...");
     Console.ReadLine();
 
+    //--------------------------------------------------------
+
+    Console.WriteLine("Projeto 8 - Variáveis Booleanas");
+
+    int idadeMarco = 16;
+    int quantidadeDePessoa = 3;
+
+    bool acompanhado = quantidadeDePessoa > 1;
+    bool grupo = true;
+
+    if (idadeMarco >= 18 || grupo && acompanhado )
+    {
+        Console.WriteLine("Marco Pode entrar na Festa!");
+    }
+    else
+    {
+        Console.WriteLine("Marco Não pode entrar na Festa!");
+    }
+    
+    Console.WriteLine("Pressione Enter para avançar...");
+    Console.ReadLine();
+
     }
 }
