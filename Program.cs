@@ -148,5 +148,41 @@ class Programa{
     Console.WriteLine("Pressione Enter para avançar...");
     Console.ReadLine();
 
+    //---------------------------------------------------
+
+    Console.WriteLine("Projeto 9 - Escopo");
+
+    int idadeMatheus = 16;
+    int quantidadeDePeople = 3;
+
+    bool acompanhados = quantidadeDePeople > 1;
+    string textoAdicional;
+
+    if(acompanhados == true)
+    {
+        textoAdicional = "matheus está acompanhado";
+    }
+    else
+    {
+        textoAdicional = "Matheus não está acompanhado";
+    }
+
+    if (idadeMatheus >= 18 ||  acompanhados )
+    {
+        Console.WriteLine(textoAdicional);
+        Console.WriteLine("Marco Pode entrar na Festa!");
+    }
+    else
+    {
+        Console.WriteLine(textoAdicional);
+        Console.WriteLine("Marco Não pode entrar na Festa!");
+    }
+    
+    Console.WriteLine("Pressione Enter para avançar...");
+    Console.ReadLine();
+
     }
 }
+
+//Para executar o código basta digitar dotnet run no terminal.
+//dotnet new console ... Cria um novo console com as pastas para um novo projeto.
