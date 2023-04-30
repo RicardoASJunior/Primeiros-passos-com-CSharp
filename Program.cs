@@ -89,7 +89,42 @@ class Programa{
 
     //-----------------------------------------------------------------
 
-    
+    Console.WriteLine("Projeto 6 - Atribuições de Variáveis");
+
+    int idades = 20;
+    int idadeRicardo = idades;
+    Console.WriteLine(idadeRicardo);
+
+
+    Console.WriteLine("Pressione Enter para avançar...");
+    Console.ReadLine();
+
+    //-----------------------------------------------------------------
+
+    Console.WriteLine("Projeto 7 - Condionais");
+
+    int idadeJoao = 16;
+    int quantidadeDePessoas = 3;
+
+    if (idadeJoao >= 18)
+    {
+        Console.WriteLine("Pode entrar na Festa!");
+    }
+    else
+    {
+        if (quantidadeDePessoas >0)
+        {
+            Console.WriteLine("Pode entrar na Festa!");    
+        }
+        else
+        {
+            Console.WriteLine("Não pode entrar na Festa!");
+        }
+    }
+
+
+    Console.WriteLine("Pressione Enter para avançar...");
+    Console.ReadLine();
 
     }
 }
