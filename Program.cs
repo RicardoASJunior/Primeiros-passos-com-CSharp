@@ -201,6 +201,23 @@ class Programa{
         Console.WriteLine("Pressione Enter para avançar...");
         Console.ReadLine();
 
+        //------------------------------------------------------
+
+        Console.WriteLine("Projeto 11 - For");
+
+        double investimentos = 1000;
+        // rendimento de 0.5% ao mẽs
+
+        for(int mess = 1; mess<=12; mess++)
+        {
+            investimentos *= 1.005;
+            Console.WriteLine("No mês: " + mess + " você tem: " + investimentos);
+
+        }
+
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
+
 
 
     }
