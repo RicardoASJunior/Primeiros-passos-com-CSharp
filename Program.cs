@@ -208,17 +208,37 @@ class Programa{
         double investimentos = 1000;
         // rendimento de 0.5% ao mẽs
 
-        for(int mess = 1; mess<=12; mess++)
+        for(int month = 1; month<=12; month++)
         {
             investimentos *= 1.005;
-            Console.WriteLine("No mês: " + mess + " você tem: " + investimentos);
+            Console.WriteLine("No mês: " + month + " você tem: " + investimentos);
 
         }
 
         Console.WriteLine("Pressione Enter para avançar...");
         Console.ReadLine();
 
+        //--------------------------------------------------------
 
+        Console.WriteLine("Projeto 12 - Encadeando laços For");
+        double totalInvestido = 1000;
+
+        double fatorRendimento = 1.005;
+
+        for(int anos = 1; anos <= 5; anos++)
+        {
+            for(int mess = 1; mess<= 12; mess++)
+            {
+                totalInvestido += fatorRendimento;
+            }
+            fatorRendimento += 0.001;
+        }
+
+        Console.WriteLine("Depois de 5 anos você terá: " + totalInvestido);
+
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
+        
 
     }
 }
