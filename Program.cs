@@ -239,6 +239,24 @@ class Programa{
         Console.WriteLine("Pressione Enter para avançar...");
         Console.ReadLine();
         
+        //----------------------------------------------------------
+
+        Console.WriteLine("Projeto 13 - Breack - laços For");
+
+        for (int contadorDeLinhas = 0; contadorDeLinhas < 10; contadorDeLinhas++)
+        {
+            for(int contadorDeColunas = 0; contadorDeColunas < 10; contadorDeColunas++)
+            {
+                Console.Write("*");
+                if (contadorDeColunas >= contadorDeLinhas)
+                    break;
+            }
+            Console.WriteLine();
+        }
+        
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
+        
 
     }
 }
