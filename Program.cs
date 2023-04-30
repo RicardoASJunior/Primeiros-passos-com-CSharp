@@ -84,102 +84,124 @@ class Programa{
         Console.WriteLine(linguagensDeProgramacao);
 
 
-    Console.WriteLine("Pressione Enter para avançar...");
-    Console.ReadLine();
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
 
-    //-----------------------------------------------------------------
+        //-----------------------------------------------------------------
 
-    Console.WriteLine("Projeto 6 - Atribuições de Variáveis");
+        Console.WriteLine("Projeto 6 - Atribuições de Variáveis");
 
-    int idades = 20;
-    int idadeRicardo = idades;
-    Console.WriteLine(idadeRicardo);
+        int idades = 20;
+        int idadeRicardo = idades;
+        Console.WriteLine(idadeRicardo);
 
 
-    Console.WriteLine("Pressione Enter para avançar...");
-    Console.ReadLine();
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
 
-    //-----------------------------------------------------------------
+        //-----------------------------------------------------------------
 
-    Console.WriteLine("Projeto 7 - Condionais");
+        Console.WriteLine("Projeto 7 - Condionais");
 
-    int idadeJoao = 16;
-    int quantidadeDePessoas = 3;
+        int idadeJoao = 16;
+        int quantidadeDePessoas = 3;
 
-    if (idadeJoao >= 18)
-    {
-        Console.WriteLine("Pode entrar na Festa!");
-    }
-    else
-    {
-        if (quantidadeDePessoas >0)
+        if (idadeJoao >= 18)
         {
-            Console.WriteLine("Pode entrar na Festa!");    
+            Console.WriteLine("Pode entrar na Festa!");
         }
         else
         {
-            Console.WriteLine("Não pode entrar na Festa!");
+            if (quantidadeDePessoas >0)
+            {
+                Console.WriteLine("Pode entrar na Festa!");    
+            }
+            else
+            {
+                Console.WriteLine("Não pode entrar na Festa!");
+            }
         }
-    }
 
 
-    Console.WriteLine("Pressione Enter para avançar...");
-    Console.ReadLine();
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
 
-    //--------------------------------------------------------
+        //--------------------------------------------------------
 
-    Console.WriteLine("Projeto 8 - Variáveis Booleanas");
+        Console.WriteLine("Projeto 8 - Variáveis Booleanas");
 
-    int idadeMarco = 16;
-    int quantidadeDePessoa = 3;
+        int idadeMarco = 16;
+        int quantidadeDePessoa = 3;
 
-    bool acompanhado = quantidadeDePessoa > 1;
-    bool grupo = true;
+        bool acompanhado = quantidadeDePessoa > 1;
+        bool grupo = true;
 
-    if (idadeMarco >= 18 || grupo && acompanhado )
-    {
-        Console.WriteLine("Marco Pode entrar na Festa!");
-    }
-    else
-    {
-        Console.WriteLine("Marco Não pode entrar na Festa!");
-    }
-    
-    Console.WriteLine("Pressione Enter para avançar...");
-    Console.ReadLine();
+        if (idadeMarco >= 18 || grupo && acompanhado )
+        {
+            Console.WriteLine("Marco Pode entrar na Festa!");
+        }
+        else
+        {
+            Console.WriteLine("Marco Não pode entrar na Festa!");
+        }
+        
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
 
-    //---------------------------------------------------
+        //---------------------------------------------------
 
-    Console.WriteLine("Projeto 9 - Escopo");
+        Console.WriteLine("Projeto 9 - Escopo");
 
-    int idadeMatheus = 16;
-    int quantidadeDePeople = 3;
+        int idadeMatheus = 16;
+        int quantidadeDePeople = 3;
 
-    bool acompanhados = quantidadeDePeople > 1;
-    string textoAdicional;
+        bool acompanhados = quantidadeDePeople > 1;
+        string textoAdicional;
 
-    if(acompanhados == true)
-    {
-        textoAdicional = "matheus está acompanhado";
-    }
-    else
-    {
-        textoAdicional = "Matheus não está acompanhado";
-    }
+        if(acompanhados == true)
+        {
+            textoAdicional = "matheus está acompanhado";
+        }
+        else
+        {
+            textoAdicional = "Matheus não está acompanhado";
+        }
 
-    if (idadeMatheus >= 18 ||  acompanhados )
-    {
-        Console.WriteLine(textoAdicional);
-        Console.WriteLine("Marco Pode entrar na Festa!");
-    }
-    else
-    {
-        Console.WriteLine(textoAdicional);
-        Console.WriteLine("Marco Não pode entrar na Festa!");
-    }
-    
-    Console.WriteLine("Pressione Enter para avançar...");
-    Console.ReadLine();
+        if (idadeMatheus >= 18 ||  acompanhados )
+        {
+            Console.WriteLine(textoAdicional);
+            Console.WriteLine("Marco Pode entrar na Festa!");
+        }
+        else
+        {
+            Console.WriteLine(textoAdicional);
+            Console.WriteLine("Marco Não pode entrar na Festa!");
+        }
+        
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
+
+        //--------------------------------------------------------
+
+        Console.WriteLine("Projeto 10 - While");
+
+        double investimento = 1000;
+        // rendimento de 0.5% ao mẽs
+
+        int mes = 1;
+
+        while (mes <= 12)
+        {
+            investimento = investimento + investimento * 0.005;
+            mes += 1;
+            Console.WriteLine("No mês: " + mes + " você tem: " + investimento);
+
+        }
+
+        Console.WriteLine("Pressione Enter para avançar...");
+        Console.ReadLine();
+
+
 
     }
 }
